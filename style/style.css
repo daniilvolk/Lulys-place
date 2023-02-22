@@ -129,7 +129,6 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -415,9 +414,11 @@ body {
 }
 
 .line-2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px;
+  position: relative;
+  left:150px;
+  top: 30px;
 }
 
+.active{
+  background-color: pink;
+}
